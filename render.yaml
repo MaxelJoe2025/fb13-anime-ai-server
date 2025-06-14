@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: fb13-anime-ai
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: API_KEY
+        value: FB-13 استديو أنمي احترافي
+      - key: ELEVEN_API_KEY
+        value: sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      - key: RADICAL_API_KEY
+        value: L4oQlsSUvr1dPrBVfGJG3KP1eCvE0kYJ
